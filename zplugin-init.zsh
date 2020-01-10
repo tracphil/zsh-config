@@ -47,6 +47,12 @@ alias gi="git-ignore"
 #zplugin snippet OMZ::plugins/python/python.plugin.zsh
 #zplugin ice wait"0" lucid
 #zplugin snippet OMZ::plugins/ruby/ruby.plugin.zsh
+zplugin snippet OMZ::plugins/pyenv/pyenv.plugin.zsh
+zplugin snippet OMZ::plugins/terraform/terraform.plugin.zsh
+zplugin snippet OMZ::plugins/vscode/vscode.plugin.zsh
+
+# NOTE: AWS completion is already in place with pyenv installation
+# zplugin snippet OMZ::plugins/aws/aws.plugin.zsh
 
 #
 # Prezto Plugins
