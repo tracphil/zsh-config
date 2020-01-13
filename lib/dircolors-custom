@@ -40,10 +40,10 @@ CAPABILITY 	30;41
 .txt                  38;5;253
 
 # markup {{{2
-.info                 38;5;184
-.markdown             38;5;184
-.md                   38;5;184
-.mmd                  38;5;184
+.info                 01;38;5;176
+.markdown             01;38;5;176
+.md                   01;38;5;176
+.mmd                  01;38;5;176
 
 # docs, images
 
@@ -85,6 +85,11 @@ CAPABILITY 	30;41
 .logout               38;5;177
 .zsh                  38;5;180
 
+# Terraform
+*.tfstate        0;38;5;239
+*.tfstate.backup 0;38;5;239
+*.tf             00;38;5;71
+*.tfvars         00;38;5;71
 
 # python
 .py                   38;5;41
@@ -160,7 +165,27 @@ CAPABILITY 	30;41
 .dump                 38;5;241
 .stackdump            38;5;241
 .zcompdump            38;5;241
+
+# "transient" files as logs and backups (dark gray)
+.log             00;38;5;239
+.bak             00;38;5;239
+.aux             00;38;5;239
+.out             00;38;5;239
+.toc             00;38;5;239
+*~               00;38;5;239
+*#               00;38;5;239
+.part            00;38;5;239
+.incomplete      00;38;5;239
+.swp             00;38;5;239
+.tmp             00;38;5;239
+.temp            00;38;5;239
+.o               00;38;5;239
+.pyc             00;38;5;239
+.class           00;38;5;239
+.cache           00;38;5;239
+.sublime-workspace 00;38;5;239
 .zwc                  38;5;241
+.zwc.old              38;5;241
 
 # macOS
 .DS_Store             38;5;239
