@@ -6,7 +6,6 @@ The configurations are for my macOS workstation and therefore contain some macOS
 
 ```sh
 cd
-# pull the git repos
 git clone https://github.com/tracphil/zsh-config.git .zsh-config
 zsh ~/.zsh-config/bootstrap.sh
 ```
