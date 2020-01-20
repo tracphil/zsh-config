@@ -10,19 +10,15 @@ git clone https://github.com/tracphil/zsh-config.git .zsh-config
 zsh ~/.zsh-config/bootstrap.sh
 ```
 
-Log out and login again!!!
+Open a new terminal and plugins will automatically start installing.
 
 In case you want to have private setting excluded from public Git repos, just create a file `.private.zsh` in the home folder.
 
 ## Plugin Management
 
-I use [zplugin](https://github.com/zdharma/zplugin) with Turbo Mode to accelerate the loading and checking of ZSH plugins. Thus, `zplugin` needs to be installed as well.
+I use [zplugin](https://github.com/zdharma/zplugin) with Turbo Mode to accelerate the loading and checking of ZSH plugins. Thus, `zplugin` will be install be installed via the `bootstrap.sh` script above. 
 
-```sh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/zdharma/zplugin/master/doc/install.sh)"
-```
-
-Note that `zplugin` installation script will automatically add some commands into the end of `.zshrc` to initialise / load `zplugin`. Nonetheless, `_init.sh` has already the initialisation of `zplugin`, thus, we should remove or comment the parts added by `zplugin` installation script.  
+If you want to add aditional plugins look in `~/.zsh-config/zplugin-init.sh` for the format and add yours.
 
 Some useful plugins:
 
