@@ -29,7 +29,8 @@ zplugin light junegunn/fzf
 
 #zplugin light mafredri/zsh-async
 # Load the pure theme, with zsh-async library that's bundled with it
-zplugin ice pick"async.zsh" src"pure.zsh" lucid; zplugin light sindresorhus/pure
+# zplugin ice pick"async.zsh" src"pure.zsh" lucid; zplugin light sindresorhus/pure
+zplugin ice depth=1; zplugin light romkatv/powerlevel10k
 
 zplugin ice as"completion" lucid
 zplugin snippet https://github.com/docker/cli/blob/master/contrib/completion/zsh/_docker

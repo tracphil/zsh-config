@@ -48,4 +48,4 @@ esac
 
 
 # Private script here
-[ -f ~/.private.zsh ] && source ~/.private.zsh
+[ -f ~/.private.zsh ] && source ${HOME}/.private.zsh
