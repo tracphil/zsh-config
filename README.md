@@ -5,8 +5,7 @@ The configurations are for my macOS workstation and therefore contain some macOS
 ## Quick Start
 
 ```sh
-cd
-git clone https://github.com/tracphil/zsh-config.git .zsh-config
+git clone git@github.com:tracphil/zsh-config.git ~/.zsh-config
 zsh ~/.zsh-config/bootstrap.sh
 ```
 
