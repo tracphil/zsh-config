@@ -53,7 +53,7 @@ zplugin snippet OMZ::plugins/terraform/terraform.plugin.zsh
 zplugin snippet OMZ::plugins/vscode/vscode.plugin.zsh
 
 # NOTE: AWS completion is already in place with pyenv installation
-# zplugin snippet OMZ::plugins/aws/aws.plugin.zsh
+zplugin snippet OMZ::plugins/aws/aws.plugin.zsh
 
 #
 # Prezto Plugins
