@@ -19,6 +19,11 @@ then
   source `brew --prefix`/etc/grc.bashrc
 fi
 
+if which nvim >/dev/null 2>&1;
+then
+    alias vi=nvim
+fi
+
 alias ssh="ssh -A"
 alias awsinfo="awsinfo.py"
 
