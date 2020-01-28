@@ -43,6 +43,6 @@ alias cdot="cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/Settings/dotfiles
 alias cdp="cd $PROJECTS_DIR"
 alias cdr="cd $NOCBOT_ROLES_PATH"
 alias cds="cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/Settings/"
-alias cdt="cd $PROJECTS_DIR/mantoso/azure/terraform"
+alias cdt="cd $PROJECTS_DIR/mantoso/azure/mantoso-terraform"
 alias cdme="cd $PROJECTS_DIR/tracphil/"
 alias idrive="cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/"
