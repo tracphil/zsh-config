@@ -25,7 +25,6 @@ then
 fi
 
 alias ssh="ssh -A"
-alias awsinfo="awsinfo.py"
 
 # what is my ip?
 alias myip='dig +short myip.opendns.com @resolver1.opendns.com'
@@ -43,6 +42,7 @@ alias cdot="cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/Settings/dotfiles
 alias cdp="cd $PROJECTS_DIR"
 alias cdr="cd $NOCBOT_ROLES_PATH"
 alias cds="cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/Settings/"
-alias cdt="cd $PROJECTS_DIR/mantoso/azure/mantoso-terraform"
+alias cdt="cd $PROJECTS_DIR/mantoso/azure/mantoso-terraform-azure"
+alias cdtm="cd $PROJECTS_DIR/mantoso/azure/modules"
 alias cdme="cd $PROJECTS_DIR/tracphil/"
 alias idrive="cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/"
