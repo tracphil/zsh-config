@@ -1,6 +1,4 @@
 #!/usr/bin/env zsh
-# vim:syntax=sh
-# vim:filetype=sh
 
 # https://github.com/zdharma/zplugin/wiki
 # https://github.com/zdharma/zplugin/blob/master/GALLERY.md
@@ -33,7 +31,8 @@ zplugin light junegunn/fzf
 zplugin ice depth=1; zplugin light romkatv/powerlevel10k
 
 zplugin ice as"completion" lucid
-zplugin snippet https://github.com/docker/cli/blob/master/contrib/completion/zsh/_docker
+# zplugin snippet https://github.com/docker/cli/blob/master/contrib/completion/zsh/_docker
+zplugin as'completion' for OMZ::plugins/docker/_docker
 
 # https://github.com/laggardkernel/git-ignore
 zplugin ice pick'init.zsh' blockf
@@ -51,6 +50,8 @@ alias gi="git-ignore"
 zplugin snippet OMZ::plugins/pyenv/pyenv.plugin.zsh
 zplugin snippet OMZ::plugins/terraform/terraform.plugin.zsh
 zplugin snippet OMZ::plugins/vscode/vscode.plugin.zsh
+zplugin snippet OMZ::plugins/ansible/ansible.plugin.zsh
+
 
 # NOTE: AWS completion is already in place with pyenv installation
 # zplugin snippet OMZ::plugins/aws/aws.plugin.zsh
@@ -59,5 +60,5 @@ zplugin snippet OMZ::plugins/vscode/vscode.plugin.zsh
 # Prezto Plugins
 # https://github.com/sorin-ionescu/prezto/blob/master/modules
 #
-#zplugin snippet PZT::modules/python/init.zsh
+# zplugin snippet PZT::modules/python/init.zsh
 
