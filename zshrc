@@ -44,7 +44,7 @@ esac
 # https://direnv.net/
 # see zplugin-init.zsh
 # https://github.com/zdharma/zplugin/wiki/Direnv-explanation
-#eval "$(direnv hook zsh)"
+eval "$(direnv hook zsh)"
 
 
 # Private script here
