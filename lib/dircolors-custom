@@ -120,6 +120,7 @@ CAPABILITY 	30;41
 .json                 38;5;178
 .xml                  38;5;178
 .yml                  38;5;178
+.yaml                  38;5;178
 .php                  38;5;81
 .coffee               38;5;074
 .htaccess             38;5;230
