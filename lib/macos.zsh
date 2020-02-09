@@ -1,6 +1,6 @@
 #!/usr/bin/env zsh
-# vim:syntax=sh
-# vim:filetype=sh
+# vim:syntax=zsh
+# vim:filetype=zsh
 
 #
 # Define common system-wide configurations
@@ -43,8 +43,8 @@ alias df='df -h'
 #
 # Pipe Aliases
 #
-alias grep='egrep -I -n -H --color=auto '
-alias egrep='egrep -I -n -H --color=auto '
+alias grep='egrep -I -n -H -h --color=auto '
+alias egrep='egrep -I -n -H h --color=auto '
 alias L=' | less '
 alias G=' | egrep -I -n -H --color=auto '
 alias T=' | tail '
