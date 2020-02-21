@@ -43,7 +43,7 @@ alias df='df -h'
 #
 # Pipe Aliases
 #
-alias grep='egrep -I -n -H -h --color=auto '
+alias grep='grep -I -n -H --color=auto '
 alias egrep='egrep -I -n -H h --color=auto '
 alias L=' | less '
 alias G=' | egrep -I -n -H --color=auto '
