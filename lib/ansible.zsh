@@ -1,3 +1,9 @@
+
+# ~/.private.zsh overrides everything listed here
+# If using `direnv`, $ANSIBLE_HOME/.envrc will override ~/.private.zsh
+# ANSIBLE_CONFIG, ANSIBLE_HOSTS and ANSIBLE_ROLES_PATH
+# That allows one to override what is here for custom locations
+
 export ANSIBLE_HOME=~/Projects/ansible
 export ANSIBLE_CONFIG=~/Projects/ansible/ansible_local.cfg
 export ANSIBLE_HOSTS=~/Projects/ansible/hosts_local
