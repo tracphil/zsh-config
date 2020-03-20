@@ -1,6 +1,7 @@
 # My ZSH Configurations
 
-The configurations are for my macOS workstation and therefore contain some macOS-specific code and commands.
+This zsh configuration has been superseded by [my-zsh](https://github.com/tracphil/my-zsh)
+
 
 ## Quick Start
 
